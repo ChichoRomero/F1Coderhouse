@@ -1,0 +1,183 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+header {
+	background-color: #FF1E00;
+	color: white;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-container { 
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.nav-bar {
+	display: inline-flexbox;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.nav-bar-link {
+	color: white;
+	text-decoration: none;
+	font-size: 18pt;
+	margin: 0 10px;
+	padding: 10px;
+	position: relative;
+}
+
+.nav-bar-link.active {
+	background-color: white;
+	color: #FF1E00;
+}
+
+.nav-bar-link:hover {
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.news-text {
+	font-size: 28pt;
+	font-weight: lighter;
+	padding-left: 20px;
+}
+
+.view-more {
+	text-align: right;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.view-more a {
+	background-color: #FF1E00;
+	display: inline-block;
+	padding: 10px;
+	font-weight: 600;
+	color: white;
+	border-radius: 15px;
+	
+}
+
+.race-video {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+}
+
+.race-video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.drivers-list {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.drivers-list ol {
+    width: 50%;
+    margin: 10;
+    padding: 0;
+	display: grid;
+	justify-content: center;
+	text-align: center;
+}
+
+.drivers-list ol img {
+	max-width: 100%;
+}
+
+.drivers-list ol:hover {
+	transform: scale(1.15);
+	opacity: 100%;
+}
+
+.drivers-list ol:not(:hover) {
+	opacity: 90%;
+}
+
+.constructors-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.constructors-list ol {
+	font-size: 18pt;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 10pt;
+	width: 40%;
+	margin: 20px;
+	padding: 0;
+	display: grid;
+	justify-content: center;
+	text-align: center;
+}
+
+.constructors-list ol:hover {
+	transform: scale(1.15);
+	opacity: 100%;
+}
+
+.constructors-list ol:not(:hover) {
+	opacity: 85%;
+}
+
+.constructors-list ol img {
+	max-width: 100%;
+}
+
+.content-not-found p {
+	font-size: 32px;
+	font-weight: 200;
+	text-align: center;
+}
+
+.content-not-found img {
+	max-width: 100%;
+}
+
+footer {
+	background-color: #FF1E00;
+	color: white;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 42pt;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 32pt;
+	line-height: 1.2;
+}
+
+p {
+	font-size: 12pt;
+	line-height: 1.5;
+}
