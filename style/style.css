@@ -14,6 +14,17 @@ header {
   margin-top: auto;
   margin-bottom: auto; }
 
+  .dropdown-menu {
+    background-color: #FF1E00;
+    /* align-items: left; */
+  }
+  
+  .dropdown-item {
+    color: black;
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
 .nav-bar {
   display: inline-flexbox;
   align-items: center;

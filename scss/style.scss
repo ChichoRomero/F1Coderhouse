@@ -25,7 +25,7 @@ header {
 }
 
 .nav-bar-link {
-	color: white;
+	color: black;
 	text-decoration: none;
 	font-size: 18pt;
 	margin: 0 10px;
@@ -34,13 +34,13 @@ header {
 }
 
 .nav-bar-link.active {
-	background-color: white;
+	background-color: black;
 	color: #FF1E00;
 }
 
 .nav-bar-link:hover {
 	background-color: black;
-	color: white;
+	color: black;
 	border-radius: 10px;
 }
 
