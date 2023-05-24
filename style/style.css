@@ -109,23 +109,33 @@ header {
 }
 
 #drivers {
+  padding-top: 2%;
   padding-left: 5%;
+  padding-bottom: 2%;
 }
 
 #constructors {
+  padding-top: 2%;
   padding-left: 5%;
+  padding-bottom: 2%;
 }
 
 #schedule {
+  padding-top: 2%;
   padding-left: 5%;
+  padding-bottom: 2%;
 }
 
 #schedule {
+  padding-top: 2%;
   padding-left: 5%;
+  padding-bottom: 2%;
 }
 
 #results {
+  padding-top: 2%;
   padding-left: 5%;
+  padding-bottom: 2%;
 }
 
 .race-video {
