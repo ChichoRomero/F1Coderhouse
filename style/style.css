@@ -191,7 +191,8 @@ header {
 
 .circuit-button {
   background-color: transparent;
-  border-style: none; }
+  border-style: none;
+  cursor: pointer; }
   .circuit-button:focus {
     outline: none; }
 

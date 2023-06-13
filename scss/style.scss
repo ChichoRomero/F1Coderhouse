@@ -239,6 +239,7 @@ header {
 .circuit-button {
   background-color: transparent;
   border-style: none;
+  cursor: pointer;
   &:focus {
     outline: none;
   }
