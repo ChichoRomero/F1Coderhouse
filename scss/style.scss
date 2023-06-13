@@ -157,6 +157,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; 
+  padding-bottom: 10px;
   ol {
     width: 50%;
     margin: 10;
@@ -168,8 +169,8 @@ header {
       max-width: 100%;
     }
     &:hover {
-      transform: scale(1.15);
-      opacity: 100%; 
+      transform: scale(1.1);
+      opacity: 100%;
     }
     &:not(:hover) {
       opacity: 90%;
@@ -181,7 +182,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
+  padding-bottom: 10px;
   ol {
     font-size: 18pt;
     font-weight: bold;
@@ -194,7 +196,7 @@ header {
     justify-content: center;
     text-align: center; 
     &:hover {
-      transform: scale(1.15);
+      transform: scale(1.1);
       opacity: 100%; 
     }
     &:not(:hover) {
@@ -202,6 +204,34 @@ header {
     }
     img {
       max-width: 100%;
+    }
+  }
+}
+
+.circuits-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  padding-right: 20px;
+  padding-bottom: 10px;
+  ol {
+    width: 50%;
+    margin: 10;
+    max-width: 250px;
+    padding: 20;
+    display: grid;
+    justify-content: center;
+    text-align: center; 
+    img {
+      max-width: 80%;
+    }
+    &:hover {
+      transform: scale(1.1);
+      opacity: 100%; 
+    }
+    &:not(:hover) {
+      opacity: 90%;
     }
   }
 }

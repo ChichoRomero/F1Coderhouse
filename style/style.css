@@ -124,7 +124,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 10px; }
   .drivers-list ol {
     width: 50%;
     margin: 10;
@@ -135,7 +136,7 @@ header {
     .drivers-list ol img {
       max-width: 100%; }
     .drivers-list ol:hover {
-      transform: scale(1.15);
+      transform: scale(1.1);
       opacity: 100%; }
     .drivers-list ol:not(:hover) {
       opacity: 90%; }
@@ -144,7 +145,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 10px; }
   .constructors-list ol {
     font-size: 18pt;
     font-weight: bold;
@@ -157,12 +159,35 @@ header {
     justify-content: center;
     text-align: center; }
     .constructors-list ol:hover {
-      transform: scale(1.15);
+      transform: scale(1.1);
       opacity: 100%; }
     .constructors-list ol:not(:hover) {
       opacity: 85%; }
     .constructors-list ol img {
       max-width: 100%; }
+
+.circuits-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-bottom: 10px; }
+  .circuits-list ol {
+    width: 50%;
+    margin: 10;
+    max-width: 250px;
+    padding: 20;
+    display: grid;
+    justify-content: center;
+    text-align: center; }
+    .circuits-list ol img {
+      max-width: 80%; }
+    .circuits-list ol:hover {
+      transform: scale(1.1);
+      opacity: 100%; }
+    .circuits-list ol:not(:hover) {
+      opacity: 90%; }
 
 .content-not-found p {
   font-size: 32px;
