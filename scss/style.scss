@@ -236,6 +236,20 @@ header {
   }
 }
 
+.circuit-button {
+  background-color: transparent;
+  border-style: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .content-not-found {
   p {
     font-size: 32px;
