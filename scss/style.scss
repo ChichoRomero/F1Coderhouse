@@ -1,6 +1,7 @@
 $f1-red: #FF1E00;
 $f1-white: #FFFFFF;
 $f1-black: #000000;
+$f1-grey: #f5f5f5;
 
 body {
   font-family: 'Titillium Web', sans-serif; }
@@ -250,6 +251,31 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+.nav-item {
+  color: $f1-black;
+  &:hover {
+    color: $f1-red;
+  }
+}
+
+nav {
+  padding-right: 5%;
+}
+
+table {
+  width: 95%;
+}
+
+td, th {
+  height: 50px;
+  padding-left: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: $f1-grey;
+}
+
 
 .content-not-found {
   p {
