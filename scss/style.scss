@@ -160,8 +160,10 @@ header {
   align-items: center; 
   padding-bottom: 10px;
   ol {
-    width: 50%;
-    margin: 10;
+    font-size: 18pt;
+    width: 45%;
+    min-width: 350px;
+    margin: 20px;
     padding: 0;
     display: grid;
     justify-content: center;
@@ -170,13 +172,25 @@ header {
       max-width: 100%;
     }
     &:hover {
-      transform: scale(1.1);
       opacity: 100%;
     }
     &:not(:hover) {
       opacity: 90%;
     }
   }
+}
+
+.card {
+  border: 1px solid $f1-black;
+  border-radius: 10pt;
+}
+
+.card-title {
+  padding-top: 5px;
+}
+
+.card-text {
+  padding: 0%;
 }
 
 .constructors-list {
@@ -190,7 +204,8 @@ header {
     font-weight: bold;
     border: 1px solid $f1-black;
     border-radius: 10pt;
-    width: 40%;
+    width: 45%;
+    min-width: 350px;
     margin: 20px;
     padding: 0;
     display: grid;
@@ -272,8 +287,10 @@ td, th {
   padding-left: 10px;
 }
 
-tr:nth-child(even) {
-  background-color: $f1-grey;
+tr {
+  &:nth-child(even) {
+    background-color: $f1-grey;
+  }
 }
 
 

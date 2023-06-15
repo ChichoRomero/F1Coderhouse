@@ -127,8 +127,10 @@ header {
   align-items: center;
   padding-bottom: 10px; }
   .drivers-list ol {
-    width: 50%;
-    margin: 10;
+    font-size: 18pt;
+    width: 45%;
+    min-width: 350px;
+    margin: 20px;
     padding: 0;
     display: grid;
     justify-content: center;
@@ -136,10 +138,19 @@ header {
     .drivers-list ol img {
       max-width: 100%; }
     .drivers-list ol:hover {
-      transform: scale(1.1);
       opacity: 100%; }
     .drivers-list ol:not(:hover) {
       opacity: 90%; }
+
+.card {
+  border: 1px solid #000000;
+  border-radius: 10pt; }
+
+.card-title {
+  padding-top: 5px; }
+
+.card-text {
+  padding: 0%; }
 
 .constructors-list {
   display: flex;
@@ -152,7 +163,8 @@ header {
     font-weight: bold;
     border: 1px solid #000000;
     border-radius: 10pt;
-    width: 40%;
+    width: 45%;
+    min-width: 350px;
     margin: 20px;
     padding: 0;
     display: grid;
